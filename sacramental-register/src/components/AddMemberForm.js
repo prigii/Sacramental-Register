@@ -64,7 +64,7 @@ const AddMemberForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <div className="mb-4">
@@ -74,7 +74,7 @@ const AddMemberForm = () => {
               name="baptism_date"
               value={formData.baptism_date}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <div className="mb-4">
@@ -84,7 +84,7 @@ const AddMemberForm = () => {
               name="first_holy_communion_date"
               value={formData.first_holy_communion_date}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <div className="mb-4">
@@ -94,7 +94,7 @@ const AddMemberForm = () => {
               name="confirmation_date"
               value={formData.confirmation_date}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <div className="mb-4">
@@ -104,7 +104,7 @@ const AddMemberForm = () => {
               name="holy_matrimony_date"
               value={formData.holy_matrimony_date}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <div className="mb-4">
@@ -114,7 +114,7 @@ const AddMemberForm = () => {
               name="death_date"
               value={formData.death_date}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <div className="mb-4">
@@ -124,7 +124,7 @@ const AddMemberForm = () => {
               name="outstation"
               value={formData.outstation}
               onChange={handleChange}
-              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
           </div>
           <button

@@ -48,13 +48,15 @@ const AddMemberForm = () => {
     <div className="flex flex-col items-center my-4">
       <button
         onClick={toggleFormVisibility}
-        className="bg-blue-500 text-white p-2 mb-4"
+        className="bg-yellow-600 text-white py-2 px-6 rounded-lg hover:bg-yellow-500 focus:outline-none"
+           
       >
         {isFormVisible ? 'Hide Form' : 'Add New Member'}
       </button>
 
       {isFormVisible && (
-        <form onSubmit={handleSubmit} className="w-full max-w-md">
+        <form onSubmit={handleSubmit} className="w-full max-w-lg rounded-lg shadow-xl p-6 bg-white m-4">
+          <h2 className="text-center text-xl font-bold text-gray-800 mb-6">Add New Member</h2>
           <div className="mb-4">
             <label className="block text-gray-700">Name</label>
             <input
@@ -62,7 +64,7 @@ const AddMemberForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
@@ -72,7 +74,7 @@ const AddMemberForm = () => {
               name="baptism_date"
               value={formData.baptism_date}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
@@ -82,7 +84,7 @@ const AddMemberForm = () => {
               name="first_holy_communion_date"
               value={formData.first_holy_communion_date}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
@@ -92,7 +94,7 @@ const AddMemberForm = () => {
               name="confirmation_date"
               value={formData.confirmation_date}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
@@ -102,7 +104,7 @@ const AddMemberForm = () => {
               name="holy_matrimony_date"
               value={formData.holy_matrimony_date}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
@@ -112,7 +114,7 @@ const AddMemberForm = () => {
               name="death_date"
               value={formData.death_date}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
@@ -122,10 +124,13 @@ const AddMemberForm = () => {
               name="outstation"
               value={formData.outstation}
               onChange={handleChange}
-              className="border p-2 w-full"
+              className="border p-2 w-full rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-          <button type="submit" className="bg-blue-500 text-white p-2 w-full">
+          <button
+            type="submit"
+            className="bg-yellow-500 text-white p-2 w-full rounded-md shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+          >
             Add Member
           </button>
         </form>

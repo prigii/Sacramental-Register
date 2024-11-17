@@ -20,7 +20,7 @@ export default function Home() {
   });
 
   return (
-    <div>
+    <div className='bg-yellow-100 min-h-screen'>
       <Header />
       <div className="container mx-auto">
         <SearchForm onSearch={setQuery} />
